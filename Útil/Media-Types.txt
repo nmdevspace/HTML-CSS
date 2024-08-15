@@ -1,0 +1,17 @@
+Atributos para identificação de arquivos:
+application/zip - Arquivo zip
+text/html - Arquivo HTML
+text/css - Arquivo css
+text/javascript - Arquivo JavaScript
+video/mp4 - Arquivo de vídeo mp4
+video/H264 - Arquivo de vídeo H264
+video/JPEG - Arquivo de vídeo JPEG
+audio/aac - Arquivo de áudio
+audio/mpeg - Arquivo de vídeo e áudio
+font/ttf - Arquivo de fonte
+image/jpeg - Imagem JPEG
+image/png - Imagem PNG
+application/pdf - Arquivo PDF
+
+Site para midia-types:
+https://www.iana.org/assignments/media-types/media-types.xhtml

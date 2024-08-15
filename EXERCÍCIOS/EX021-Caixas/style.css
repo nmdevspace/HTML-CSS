@@ -1,0 +1,28 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightblue;
+  
+}
+nav{
+  background-color: gray;
+  padding: 3px;
+}
+nav a{
+  background-color: white;
+  font-weight: bold;
+  margin: 30px;
+  border-radius: 50%;
+  text-decoration: none;
+  }
+header{
+  background-color: lightgrey;
+margin: 0;
+padding: 0;
+}
+article{
+  background-color: lightcoral;
+  padding: 5px;
+}
+article>aside{
+  background-color: gray;
+}

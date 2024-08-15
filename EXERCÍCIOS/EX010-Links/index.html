@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trabalhando com links</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <h1>Utilizando links externos</h1>
+  <p>Acesse meu <a href="https://instagram.com/nickzinnx" target="_blank" rel="external">perfil no instagram.</a></p>
+  <p>Acesse também o <a href="https://youtube.com" target="_blank" rel="external">youtube.</a></p> <!--Adicionando target e rel como blank e external, ao ser aberto, o link abre uma nova guia e continua navegando no site.
+  Agora se setado como self e next o link será aberto na janela atual.-->
+  <h1>Links internos</h1>
+  <!--Next indica que o link é para a próxima parte do documento atual.
+  Prev indica que o link é para a parte anterior do documento atual
+  Author indica que é um link para o site do autor do artigo atual
+  External indica que é um link para outro site que não faz parte do site -->
+  <p class="p2">Esta é a primeira página do site. Se você quiser, pode acessar também a minha <a href="pag002.html" rel="next" target="_self">segunda página</a></p>
+  <p>Você também pode acessar a nossa <a href="Noticias/pag003.html" target="_self" rel="external">página de noticias</a></p><!--Se o site está dentro de uma pasta, crie o caminho até esse link-->
+  <h1>Link para download</h1>
+  <ul>
+    <li><a href="livro/02 - Como funciona a Internet.pdf" download="Como funciona a Internet.pdf" type="application/pdf">Baixar o livro em pdf</a></li><!--Para efetuar o download, além do href, é necessário adicionar o parâmetro download e o parâmetro type com o midia-type do arquivo -->
+  </ul>
+</body>
+</html>

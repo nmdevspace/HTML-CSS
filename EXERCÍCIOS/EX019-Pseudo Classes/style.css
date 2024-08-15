@@ -1,0 +1,10 @@
+  div{
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    display: right;
+  }
+
+  div:hover{
+    background-color: rgb(42, 73, 83);
+  } 

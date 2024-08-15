@@ -1,0 +1,17 @@
+body{
+  background-color: black;
+  color: white;
+}
+#principal{
+  color: green;
+  text-align: center;
+  background-color: white;
+
+}
+
+h2{
+  color: green;
+}
+.basico{
+  color: blue;
+}
